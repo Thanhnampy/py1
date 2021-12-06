@@ -1,0 +1,12 @@
+def dientichHCN():
+    import math
+    # nhập giá trị 3 cạnh
+    a = float(input("Nhap canh a:= "))
+    b = float(input("Nhap canh b:= "))
+    
+    Dientich = a*b
+    print(f"diện tích tam giác là: {Dientich} ")
+    # thêm điều kiện kiểm tra 3 cạnh bất kỳ tạo thành tam giác hay không
+
+if __name__=="__main__":
+    dientichHCN()
